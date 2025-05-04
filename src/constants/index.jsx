@@ -31,10 +31,10 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "KARTIK MISTRY",
+  name: "Mihir Kate",
   greet: "Hello there! 👋🏻",
   description:
-    "Aspiring Data Scientist seeking to apply academic knowledge in statistical analysis and predictive modeling to real-world problems with strong foundation in Data Science, Machine Learning, Python Programming, SQL skills and Power BI.",
+    "Focused on backend engineering with expertise in Node.js, AWS, Docker, and Blockchain—actively building scalable, impactful solutions.",
 };
 
 export const PROJECTS = [
@@ -60,7 +60,8 @@ export const PROJECTS = [
     description:
       "A website designed to detect phishing and malicious websites. Also our team had created a web extension for immediate detection of malicious website.",
     image: projectImage3,
-    githubLink: "https://github.com/KartikMistry18/SecureClick-Phishing-detection-website-and-extention-",
+    githubLink:
+      "https://github.com/KartikMistry18/SecureClick-Phishing-detection-website-and-extention-",
   },
   {
     id: 4,
