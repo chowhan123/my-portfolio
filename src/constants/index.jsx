@@ -26,7 +26,7 @@ export const NAVIGATION_LINKS = [
   { label: "Bio", href: "#bio" },
   { label: "Skills", href: "#skills" },
   { label: "Work Experience", href: "#work" },
-  { label: "Education", href: "#education" },
+  { label: "Achievements", href: "#achievements" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -44,55 +44,54 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/mihirkate/Mihir-Kate-Portfolio",
   },
   {
-    id: 2,
-    name: "Learnify - Smart Learning platform",
+    id: 3,
+    name: "Swapex - A Decentralized Exchange Platform",
     description:
-      " A website designed to improvise smart learning through various engaging visualised illustrations for user interest mainly related to Data structures and placement related courses.",
+      " A website designed to improvise Decentralised Swapping of assets built with use of backpack.exchange apis .",
     image: projectImage2,
     githubLink: "https://github.com/KartikMistry18/Quasar2.0_Project",
   },
   {
-    id: 3,
-    name: "Phishing Website Detection System",
+    id: 2,
+    name: "Decentraise : A crowd funding platform built on blockchain using Ethereum",
     description:
-      "A website designed to detect phishing and malicious websites. Also our team had created a web extension for immediate detection of malicious website.",
+      "A website designed to Raise Funds using Ethereum Blockchain and Smart Contracts.",
     image: projectImage3,
-    githubLink:
-      "https://github.com/KartikMistry18/SecureClick-Phishing-detection-website-and-extention-",
+    githubLink: "https://github.com/mihirkate/DecentRaise",
   },
   {
     id: 4,
-    name: "Medicinal Plant Detection System",
+    name: "Wanderlust - An hotel Accomdation website",
     description:
-      "A website designed to detect medicinal and ayurvedic plants using Image Detection.",
+      "A website designed to implemet accomdation of hotels using MERN stack.",
     image: projectImage4,
-    githubLink: "https://github.com/KartikMistry18/AyurLeaf",
+    githubLink: "https://wanderlust-as9d.onrender.com/",
   },
   {
     id: 5,
-    name: " Next Gen Complaint System",
+    name: "Sportify - A Sports Event social Networking System",
     description:
-      "A next gen Complaint system that can be used to file complaints of victims securely without interference of any third party and easily accessible online.",
+      "Accomplished real-time local sports matchmaking using the MERN stack, which led to increased community engagement and reduced social anxiety by connecting players based on location and need..",
     image: projectImage5,
     githubLink: "https://github.com/KartikMistry18/next-gen-complaintsystem",
   },
   {
     id: 6,
-    name: "Diabetes Prediction and Retinopathy Detection System",
+    name: "Transactly – Simplified Digital Payments Platform",
     description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+      "Accomplished cashless transaction flow and user-wallet integration using the MERN stack, which led to enhanced financial accessibility and smoother payments for both users and small businesses.",
     image: projectImage6,
-    githubLink: "https://github.com/KartikMistry18/Sem-6-Mini-Project",
+    githubLink: "https://github.com/mihirkate/Paytm-CI-CD-Mihir",
   },
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "Final-year Computer Science student at MCT's Rajiv Gandhi Institute of Technology, passionate about backend development and scalable solutions.",
+  "Built secure, optimized APIs during an internship at Xzect Labs and won Smart India Hackathon 2024 for digitizing philately operations.",
+  "Skilled in Node.js, MongoDB, Firebase, and PostgreSQL; actively mentors peers and thrives on solving real-world problems through code.",
 ];
 
 export const SKILLS = [
@@ -130,68 +129,47 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "Lead Frontend Developer",
-    company: "Innovative Tech Solutions",
-    duration: "July 2020 - Present",
-    description:
-      "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
-  },
-  {
-    title: "Frontend Engineer",
-    company: "Digital Creations",
-    duration: "February 2016 - June 2020",
-    description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
-  },
-  {
-    title: "Junior Web Developer",
-    company: "Bright Future Technologies",
-    duration: "August 2014 - January 2016",
-    description:
-      "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
+    title: "Backend Developer Intern (Node.js)",
+    company: "Xzect Labs",
+    duration: "June 2024 - August 2024",
+    description: [
+      "Engineered and optimized 10+ RESTful APIs using Node.js and MongoDB, reducing API response latency by 30%.",
+      "Integrated and customized Strapi CMS across 3+ dynamic web themes. Cut deployment time by 50%.",
+      "Collaborated within a cross-functional team of 5+. Ensured seamless backend-frontend integration, decreasing integration issues by 40%.",
+      "Enhanced API security using JWT authentication, OAuth 2.0, and role-based access control systems.",
+    ],
   },
 ];
 
+export const ACHIVEMENTS = [
+  {
+    id: 1,
+    title: "Winner- Smart India Hackathon 2024",
+    description:
+      " Built the DAK platform to digitize 100% offline philately operations, integrating an EPDA module, real-time dashboards, and an AI chatbot,  leading to a 70% boost in user engagement",
+  },
+];
 export const EDUCATION = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "September 2012 - June 2014",
+    degree: "Bachelor of Engineering in Computer Science",
+    institution: "Rajiv Gandhi Institute of Technology ,Mumbai University",
+    duration: "June 2021 - May 2025",
     description:
       "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
-  },
-  {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California, Berkeley",
-    duration: "September 2008 - June 2012",
-    description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
   },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
+    href: "https://x.com/katemihir25",
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/",
+    href: "https://github.com/mihirkate",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://linkedin.com/in/mihirkate",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
