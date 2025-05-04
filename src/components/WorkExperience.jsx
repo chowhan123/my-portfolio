@@ -3,14 +3,14 @@ import { EXPERIENCES } from "../constants";
 
 function WorkExperience() {
   return (
-    <div className="py-8 px-4 bg-gray-900">
-      <h2 className="text-4xl font-poppins text-center text-white mb-8">
+    <div className="py-10 px-7 bg-gray-900 rounded-3xl">
+      <h2 className="text-3xl font-poppins text-center text-white mb-8">
         Work Experience
       </h2>
       {EXPERIENCES.map((experience, index) => (
         <div
           key={index}
-          className="bg-white shadow-lg rounded-lg p-6 mb-6 hover:shadow-xl transition-all"
+          className="bg-white shadow-lg rounded-lg p-8 mb-6 hover:shadow-xl transition-all h-full"
         >
           <h3 className="text-2xl font-semibold text-gray-900">
             {experience.title}

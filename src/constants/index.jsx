@@ -1,17 +1,47 @@
-import { FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
+import {
+  FaXTwitter,
+  FaGithub,
+  FaLinkedin,
+  FaAws,
+  FaDatabase,
+  FaNodeJs,
+  FaJava,
+} from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
-import projectImage3 from "../assets/project3.jpeg";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
+import projectImage2 from "../assets/project2.png";
+import projectImage3 from "../assets/project3.png";
+import projectImage4 from "../assets/project4.png";
+import projectImage5 from "../assets/project5.png";
+import projectImage6 from "../assets/project6.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
+import {
+  SiMongodb,
+  SiJavascript,
+  SiMysql,
+  SiPostgresql,
+  SiExpress,
+  SiFirebase,
+  SiDocker,
+  SiJenkins,
+  SiTerraform,
+  SiKubernetes,
+  SiPostman,
+  SiRender,
+  SiVercel,
+  SiNeovim,
+  SiStrapi,
+  SiPassport,
+  SiMapbox,
+  SiCloudinary,
+  SiGit,
+  SiGithub,
+  SiNodedotjs,
+  SiNewrelic,
+} from "react-icons/si";
 import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
@@ -45,7 +75,7 @@ export const PROJECTS = [
     description:
       " A website designed to improvise Decentralised Swapping of assets built with use of backpack.exchange apis .",
     image: projectImage2,
-    githubLink: "https://github.com/KartikMistry18/Quasar2.0_Project",
+    githubLink: "https://github.com/mihirkate/DecentRaise",
   },
   {
     id: 2,
@@ -69,7 +99,7 @@ export const PROJECTS = [
     description:
       "Accomplished real-time local sports matchmaking using the MERN stack, which led to increased community engagement and reduced social anxiety by connecting players based on location and need..",
     image: projectImage5,
-    githubLink: "https://github.com/KartikMistry18/next-gen-complaintsystem",
+    githubLink: "https://sporti-fy.vercel.app/",
   },
   {
     id: 6,
@@ -117,6 +147,97 @@ export const SKILLS = [
     icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
     name: "PostgreSQL",
     experience: "1+ year",
+  },
+  {
+    name: "Technical Skills",
+    categories: {
+      Languages: [
+        {
+          name: "JavaScript (Node.js)",
+          icon: <SiJavascript className="text-yellow-400 text-2xl" />,
+        },
+        { name: "Java", icon: <FaJava className="text-red-500 text-2xl" /> },
+        {
+          name: "SQL (MySQL, PostgreSQL)",
+          icon: <SiMysql className="text-blue-500 text-2xl" />,
+        },
+      ],
+      Frameworks: [
+        {
+          name: "Node.js",
+          icon: <SiNodedotjs className="text-green-500 text-2xl" />,
+        },
+        {
+          name: "Express.js",
+          icon: <SiExpress className="text-gray-600 text-2xl" />,
+        },
+        {
+          name: "HONO",
+          icon: <SiNeovim className="text-green-600 text-2xl" />,
+        }, // no official HONO icon, placeholder
+        {
+          name: "React.js",
+          icon: <RiReactjsLine className="text-cyan-400 text-2xl" />,
+        },
+        {
+          name: "Next.js",
+          icon: <TbBrandNextjs className="text-white text-2xl" />,
+        },
+        {
+          name: "Firebase",
+          icon: <SiFirebase className="text-yellow-500 text-2xl" />,
+        },
+      ],
+      "DevOps / Cloud Tools": [
+        {
+          name: "Docker",
+          icon: <SiDocker className="text-blue-500 text-2xl" />,
+        },
+        { name: "Git", icon: <SiGit className="text-orange-600 text-2xl" /> },
+        { name: "GitHub", icon: <SiGithub className="text-white text-2xl" /> },
+        {
+          name: "Jenkins CI/CD",
+          icon: <SiJenkins className="text-red-500 text-2xl" />,
+        },
+        {
+          name: "Terraform",
+          icon: <SiTerraform className="text-purple-500 text-2xl" />,
+        },
+        {
+          name: "Kubernetes",
+          icon: <SiKubernetes className="text-blue-600 text-2xl" />,
+        },
+        {
+          name: "Postman",
+          icon: <SiPostman className="text-orange-500 text-2xl" />,
+        },
+        {
+          name: "New Relic",
+          icon: <SiNewrelic className="text-green-600 text-2xl" />,
+        },
+        {
+          name: "AWS (EC2, S3, RDS, IAM, VPC)",
+          icon: <FaAws className="text-orange-400 text-2xl" />,
+        },
+
+        {
+          name: "Render",
+          icon: <SiRender className="text-purple-400 text-2xl" />,
+        },
+        { name: "Vercel", icon: <SiVercel className="text-white text-2xl" /> },
+      ],
+      Databases: [
+        {
+          name: "MongoDB",
+          icon: <SiMongodb className="text-green-600 text-2xl" />,
+        },
+        { name: "MySQL", icon: <SiMysql className="text-blue-500 text-2xl" /> },
+        {
+          name: "PostgreSQL",
+          icon: <SiPostgresql className="text-sky-700 text-2xl" />,
+        },
+      ],
+    },
   },
 ];
 

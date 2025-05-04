@@ -3,7 +3,7 @@ import { SKILLS } from "../constants"; // adjust the import path as needed
 
 function Skills() {
   return (
-    <section id="skills" className="py-12 bg-gray-900 text-white">
+    <section id="skills" className="py-12 rounded-2xl bg-gray-900 text-white">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
           Skills

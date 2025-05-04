@@ -1,1 +1,1 @@
-### Website linke --> https://mihirkate.netlify.app/ 
+### Website link --> https://mihirkate.netlify.app/ 

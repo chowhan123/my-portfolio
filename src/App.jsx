@@ -23,16 +23,20 @@ const App = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
           {/* Left side: Work Experience */}
-          <div className="col-span-1">
+          <div className="col-span-1 h-full">
             <WorkExperience />
           </div>
+
           {/* Right side: Achievements and Education */}
-          <div className="col-span-1 grid grid-rows-2 gap-8">
-            <Achievements />
-            <Education />
+          <div className="col-span-1 grid grid-rows-2 gap-8 h-full">
+            <div className="h-full">
+              <Education />
+            </div>
+            <div className="h-full">
+              <Achievements />
+            </div>
           </div>
         </div>
-
         <Contact />
       </div>
     </div>

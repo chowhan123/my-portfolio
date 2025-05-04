@@ -3,8 +3,8 @@ import { EDUCATION } from "../constants";
 
 function Education() {
   return (
-    <div className="py-8 px-4 bg-gray-900">
-      <h2 className="text-4xl font-poppins text-center text-white mb-8">
+    <div className="py-5 px-4 bg-gray-900 rounded-xl">
+      <h2 className="text-3xl font-poppins text-center text-white mb-1">
         Education
       </h2>
       {EDUCATION.map((edu, index) => (
