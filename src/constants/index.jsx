@@ -1,11 +1,4 @@
-import {
-  FaXTwitter,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaDiscord,
-  FaInstagram,
-} from "react-icons/fa6";
+import { FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
