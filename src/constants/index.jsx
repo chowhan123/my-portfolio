@@ -8,7 +8,7 @@ import {
   FaJava,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/project1.jpeg";
+import projectImage1 from "../assets/project1.png";
 import projectImage2 from "../assets/project2.png";
 import projectImage3 from "../assets/project3.png";
 import projectImage4 from "../assets/project4.png";
@@ -75,7 +75,7 @@ export const PROJECTS = [
     description:
       " A website designed to improvise Decentralised Swapping of assets built with use of backpack.exchange apis .",
     image: projectImage2,
-    githubLink: "https://github.com/mihirkate/DecentRaise",
+    githubLink: "https://github.com/mihirkate/Swapex",
   },
   {
     id: 2,
