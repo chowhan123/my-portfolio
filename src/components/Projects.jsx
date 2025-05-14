@@ -18,7 +18,9 @@ const Projects = () => {
             />
             <div
               className={`absolute inset-0 flex flex-col items-center justify-center ${
-                project.id === 4 ? "text-black" : "text-white"
+                project.id === 4 || project.id === 6
+                  ? "text-black"
+                  : "text-white"
               } opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100`}
             >
               <h3 className="mb-2 text-xl text-center px-4">{project.name}</h3>
