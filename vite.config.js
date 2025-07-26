@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
    server: {
     port: process.env.PORT || 5173,
-    host: true
+    host: true,
+    allowedHosts: ['my-portfolio-v2i1.onrender.com'] 
   }
 })
