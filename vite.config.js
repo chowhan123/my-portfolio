@@ -1,12 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-   server: {
-    port: process.env.PORT || 5173,
+  server: {
     host: true,
-    allowedHosts: 'all',
+    port: Number(process.env.PORT) || 5173,
+    allowedHosts: ['my-portfolio-v2i1.onrender.com', 'localhost'], // add your Render domain and localhost for dev
   }
-})
+});
