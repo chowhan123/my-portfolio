@@ -7,6 +7,6 @@ export default defineConfig({
    server: {
     port: process.env.PORT || 5173,
     host: true,
-    allowedHosts: ['my-portfolio-v2i1.onrender.com'] 
+    allowedHosts: 'all',
   }
 })
