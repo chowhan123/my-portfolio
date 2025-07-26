@@ -16,14 +16,32 @@ This is my personal portfolio website built using **React**, **Vite**, and **Tai
 - Resume link
 - GitHub links to projects
 
-### 🚀 Live Demo
-[Visit Website](https://your-render-url.onrender.com)
+## 🚀 Live Demo
+[Visit Website](https://my-portfolio-8huu.onrender.com)
 
-### 🛠️ Run Locally
+## 🛠️ Run Locally
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 npm install
 npm run start
 ```
+
+## 🙋‍♂️ Contact Details
+
+**Santhosh Korra**  
+📧 **Email**: santhoshnaik218@gmail.com  
+🌐 **LinkedIn**: [linkedin.com/in/santhosh-chauhan](https://www.linkedin.com/in/santhosh-chauhan/)
+
+
+## 🤝 Collaboration & Connect
+
+I'm always open to:
+
+- 🌱 Contributing to open-source
+- ✏️ Learning from mentors
+- 💼 Internships & collaborations
+- 🚀 Building real-world full-stack products
+
+Feel free to connect with me on LinkedIn!
 
