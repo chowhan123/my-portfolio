@@ -15,7 +15,11 @@ function Achievements() {
           <h3 className="text-xl font-semibold text-gray-900 mb-2">
             {item.title}
           </h3>
-          <p className="text-gray-700">{item.description}</p>
+          <ul className="list-disc list-inside text-gray-700 space-y-1">
+            {item.description.map((point, index) => (
+              <li key={index}>{point}</li>
+            ))}
+          </ul>
         </div>
       ))}
     </div>

@@ -21,14 +21,14 @@ function Contact() {
       <p className="text-sm text-gray-400 mb-1">
         Contact:{" "}
         <a
-          href="mailto:work.mihirkate@gmail.com"
+          href="mailto:santhoshnaik6929@gmail.com"
           className="underline hover:text-white"
         >
-          work.mihirkate@gmail.com
+          santhoshnaik6929@gmail.com
         </a>
       </p>
       <p className="text-xs text-gray-500 font-light">
-        © {new Date().getFullYear()} Mihir Kate. All rights reserved.
+        © {new Date().getFullYear()} Santhosh Chauhan. All rights reserved.
       </p>
     </footer>
   );
