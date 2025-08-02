@@ -49,7 +49,7 @@ const Hero = () => {
 
             {/* Resume */}
             <a
-               href="https://drive.google.com/file/d/1vQKCslQuMG-ZS23LfzWRG0cduw5fNJi4/view?usp=drive_link"
+               href="https://drive.google.com/file/d/1-lSgw8ATxWINNil1yZfbWS5vYTIjPcp8/view?usp=sharing"
                target="_blank"
                rel="noopener noreferrer"
                className="flex flex-col items-center hover:text-blue-500 transition"
